@@ -1,0 +1,77 @@
+<html> 
+	<head> 
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"> 
+		<title>quiz.teammood.com - What kind of manager are you?</title> 
+		<style type="text/css">
+			body {
+				background-color: #1ABC9C;
+			}
+		</style>
+
+		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+		<link rel="stylesheet" href="https://blog.teammood.com/assets/css/main.css">
+	</head> 
+
+	<body> 
+		<header class="site-header">
+			<div class="branding">
+				
+				<h1 class="site-title">
+					<a href="/">TeamMood's Quiz</a>
+				</h1>
+			</div>
+			<nav class="site-nav">
+				<ul>
+					<li>
+						<a href="https://www.teammood.com/">
+							<small>What is TeamMood?</small>
+						</a>
+					</li>
+					<li>
+						<a href="mailto:hello@teammood.com" title="Email">
+							<i class="fa fa-fw fa-envelope"></i>
+						</a>
+					</li>
+					<li>
+						<a href="https://www.facebook.com/TeamMood" title="Follow on Facebook">
+							<i class="fa fa-fw fa-facebook"></i>
+						</a>
+					</li>
+					<li>
+						<a href="https://www.linkedin.com/company/teammood/" title="Follow on LinkedIn">
+							<i class="fa fa-fw fa-linkedin"></i>
+						</a>
+					</li>
+					<li>
+						<a href="https://twitter.com/teammood" title="Follow on Twitter">
+							<i class="fa fa-fw fa-twitter"></i>
+						</a>
+					</li>
+				</ul>
+			</nav>
+		</header>
+
+		<!-- <div class="typeform-widget" data-url="https://teammoodhq.typeform.com/to/DDbfyh" ></div> 
+		<script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>  -->
+
+
+		<div class="target-dom-node" style="width: 100%; height: 500px;"></div>
+	    <script src="https://embed.typeform.com/embed.js"></script>
+	    <script>
+	    	var url = "https://teammoodhq.typeform.com/to/DDbfyh" 
+			let params = new URLSearchParams(location.search);
+			url += "?source=" + params.get('source');  
+
+			const embedElement = document.querySelector('.target-dom-node')
+
+			window.typeformEmbed.makeWidget(
+			  embedElement,
+			  url, 
+			  {
+			    hideHeaders: true,
+			    hideFooter: true,
+			  }
+			)
+	    </script>
+	</body> 
+</html>
