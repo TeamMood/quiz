@@ -643,7 +643,13 @@
 	    <script>
 	    	var url = "https://teammoodhq.typeform.com/to/DDbfyh" 
 			let params = new URLSearchParams(location.search);
-			url += "?source=" + params.get('source');  
+
+            if (params.get('source')) {
+                url += "?source=" + params.get('source');      
+            } else {
+                url += "?source=unknown";      
+            }
+			
 
 			const embedElement = document.querySelector('.target-dom-node')
 
